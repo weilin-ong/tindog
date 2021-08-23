@@ -1,2 +1,1 @@
-# tindog
-Tindog project for App Brewery
+TinDog Starting Files

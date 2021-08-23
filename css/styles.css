@@ -1,0 +1,172 @@
+/* General */
+body{
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+}
+
+.nav-container, footer, #features, #cta {
+    padding: 5% 10%;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+#press, #testimonials{
+    background-color: #ef8172;
+}
+
+/* Nav */
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+}
+
+.navbar{
+    padding-bottom: 50px;
+}
+
+.nav-item{
+    padding: 0 5px;
+}
+.nav-link{
+    font-family: "Ubuntu", sans-serif;   
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Title */
+
+#title > .nav-container{
+    padding-top: 2%;
+}
+
+h1{
+    font-size: 2.8em;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+.download-button{
+    margin: 5% 3% 8% 0;
+    float: left;
+}
+
+.title-col{
+    position: relative;
+}
+
+/*Title image*/
+
+.title-image{
+    width:55%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 10%;
+}
+
+@media (max-width:992px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    h1{
+        text-align: center;
+    }
+
+    .download-button{
+        float: none;
+    }
+}
+
+/*Feature*/
+
+#features{
+    position: relative;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.feature-p{
+    color: #8f8f8f;
+}
+
+.feature{
+    padding: 5% 8%;
+}
+
+.feature-icon{
+    padding: 20px;
+    color: #ef8172;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+
+/*Testimonial*/
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#press{
+    padding: 3%;
+}
+
+.press-image{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 5% 10%;
+}
+
+/*pricing*/
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/*cta*/
+
+#cta > h3{
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 3% 10%;
+}
+
+#cta > .download-button{
+    margin: 0 1%;
+    float: none;
+}
+
+/*footer*/
+
+.footer-icon{
+    padding:0 2% 3%;
+}
