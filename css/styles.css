@@ -56,7 +56,7 @@ h1{
 }
 
 .download-button{
-    margin: 5% 3% 8%;
+    margin: 5% 3% 8% 0;
     float: left;
 }
 
@@ -89,6 +89,7 @@ h1{
 
     .download-button{
         float: none;
+        margin: 5% 3% 8%;
     }
 }
 
